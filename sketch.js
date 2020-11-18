@@ -126,7 +126,7 @@ function spawnClouds() {
   //write code here to spawn the clouds
   if (frameCount % 60 === 0) {
     var cloud = createSprite(600,120,40,10);
-    cloud.y = Math.round(random(40,90));
+    cloud.y = Math.round(random(30,90));
     cloud.addImage(cloudImage);
     cloud.scale = 0.5;
     cloud.velocityX = -3;
